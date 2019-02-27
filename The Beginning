@@ -1,0 +1,1103 @@
+# ﻿People
+define j = Character('Joseph', kind=nvl, what_prefix="\"", what_suffix="\"", color="#ff7f00")
+define narrator = nvl_narrator
+define ujameson = Character('???', kind=nvl, what_prefix="\"", what_suffix="\"", color="#005506")
+define uathena = Character('???', kind=nvl, what_prefix="\"", what_suffix="\"", color="#00bbff")
+define urachel = Character('???', kind=nvl, what_prefix="\"", what_suffix="\"", color="#666666")
+define ucatherine =  Character('???', kind=nvl, what_prefix="\"", what_suffix="\"", color="#e9e500")
+define uliw = Character('???', kind=nvl, what_prefix="\"", what_suffix="\"", color="#ab0000")
+define jameson = Character('Jameson', kind=nvl, what_prefix="\"", what_suffix="\"", color="#005506")
+define liw = Character('L.I.W', kind=nvl, what_prefix="\"", what_suffix="\"", color="#ab0000")
+define ualice = Character('???', kind=nvl, what_prefix="\"", what_suffix="\"", color="#4c1e7a")
+define uran = Character('???', kind=nvl, what_prefix="\"", what_suffix="\"", color="#430e0e")
+define ran = Character('Ransigdnr', kind=nvl, what_prefix="\"", what_suffix="\"", color="#430e0e")
+
+# Backgrounds
+
+image black = "#000"
+
+# Characters
+
+# NVL config
+
+init python:
+    config.nvl_paged_rollback = True
+
+##################
+
+label start:
+
+play music "broken space.mp3" fadeout 3.0 fadein 2.0
+scene black
+with Fade(3.0, 2.0, 2.0, color="#000000")
+
+"Opening my eyes I see nothing; a common sight in this new world but comfort of a bed lets me no longer assume I've gone blind. I don't feel my host holding onto me anymore; it uneases me in this new world enveloped in darkness."
+
+"Without her watchful gaze and weapon; that long beam of light that bends to her will, that can make things explode with a violent touch around to me protect me, once again... I feel uneasy."
+
+"I always traveled with a gun, but I seldom thought about using it. It was only there when I was afraid, I've never once had to pull it on someone but knowing I had it against a wild animal or violent convict; something unusual, I had a fighting chance."
+
+"Without her I don't have a fighting chance to survive."
+
+nvl clear
+
+"There could be anything in the darkness out here. Even though I know I'm finally inside a bed, finally inside a seemingly safe home, I have fear of making light; what if some beast finds me?"
+
+"I sprawl out onto the bed and stretch, navigating it completely through feel and memory rather then sight. I remember when I was a child and thought hiding under the covers would protect me, that instinct still seems true here."
+
+"How did I get here? This new world feels so foreign to me. It was only a few days ago that I got here... it all started as any typical night."
+
+"..."
+
+nvl clear
+
+scene black
+with Fade(2.0, 2.0, 1.0, color="#000000")
+
+stop music fadeout 1.0
+
+"——"
+
+"The sun is entirely gone. Crickets chirp on this hot summer night."
+
+nvl clear
+
+scene sunset
+with fade
+
+play sound "traffic.mp3" loop
+
+play music "gravity.mp3"
+
+"Far in the distance I hear and see an occasional car traveling the interstate, punctuated with the louder and larger semi-trailers which are more noticeable, both cars illuminate the road with their bright headlights in the darkness."
+
+"I've walked a fair ways into an open plane of some kind, navigating a barbed wire fence and finding a indentation in the earth between a few small hills. I take apart the tent from my backpack, it's light and easy to setup; I can even do it in the darkness. All I see above are the stars."
+
+"Off in the distance is the capital city of Feroni. There's a beautiful view of this state's fair capital city from the roads traveling towards it. When I can, I like to setup for the night just in viewing distance of the city lights."
+
+"Within 10 minutes I have my small folded chair out, a tent deployed with nothing but the starlight above me and city lights far off in the distance. There's just enough light to faintly see silhouettes of the scenery, the darkness I've spent so many nights camping under the stars."
+
+"There is peace out here... I'm happy to get off my feet for the night, to hear nothing but cars far off in the distance... To have my thoughts, the mystery of the night and travels."
+
+nvl clear
+
+"I don't have anywhere I want to see, no desire to tour distant or foreign lands. Just seeing somewhere different, just being away from the monotony of civilization is what I want."
+
+"Despite laying back in my folding chair and looking at the night sky, there is some loneliness to the peace and calm. I wonder what the world would be like as the last man alive; I imagine I would be doing then what I'm doing now, and that is a comfort I don't think most can share."
+
+"I rummage through my backpack that leans against the chair. I pull out a small radio that fits within my palm, deploy the unusually long antennae I bought for it and try to tune into a radio station. In one ear I put in the earbud."
+
+"I have all day to think to myself. Sometimes it's nice to listen to the happenings of the world or national news so I don't completely lose sight of life, so I know I exist outside of my own thoughts."
+
+"As I tune in to the typical news stations, I open a can of tea and start digging a small hole to hide my cooking fire in."
+
+nvl clear
+
+"The news speaks more of what I've been hearing these past few months; claims of magic being “real” and undeniable, seemingly unexplainable proof of individuals performing said feats... The national government is even in a fuss about it, some people being apprehended or “disappearing” that have performed feats, violent assaults in protest; a lot of turmoil but..."
+
+"I look up at the stars and let my eyes follow the sky to the mountain tops, then hills, then to a few trees on the hills, then the earth under me."
+
+"Even if the world falls apart, I would still like to do this. To see it, to wander, to not know what awaits me in the next day. To sleep under the stars, in the darkness."
+
+"I put down the coin-shaped chemical circle, add some branches and dead/dry shrubbery that this desert has in abundance and light the fire within the hole I put in the ground."
+
+"Fire jumps out at night unless you hide it, but even with a small flame in the earth I can cook whatever I need and have near 0 visibility."
+
+"As I listen to more of the news, bizarre  claims and seemingly wild conspiracies about war declarations, public officials going missing are abound; even discussions on mutually assured destruction. "
+
+nvl clear
+
+"I'm living in an interesting time; as concerning as these reports have been for the past 6 months, I've yet to see it with my own eyes. Out here, traveling the road day after day, seeing what happens in the world, living away from it all, I don't notice any of these things; these big issues seem so distant."
+
+"Some part of me wonders if any of these things will be substantiated, but I'm doubtful; it could be an elaborate ruse, sensational news outlets, anything."
+
+"A can of soup cooks over the pan and fire as I ponder and listen. Being off my feet is great for the night. There's even a calm wind to help keep me cool."
+
+"With radio in one ear, the crackling of the fire in the other, darkness all around, stars above me and the lights of civilization as far away from me as I can reasonably live with, I eventually get tired and retreat into my tent after putting away the fire and chair."
+
+nvl clear
+
+scene black
+with dissolve
+
+"The tent has reasonably low visibility; I made sure it's got camo, but I usually like to be on the road as the sun is rising, at the absolute latest. This area is hidden well enough, low to the ground; that combined with being up before anyone cares to look is how I've made it so far."
+
+"I fall asleep in my sleeping bag at some point, it happens so naturally now compared to living in the city. With a calm mind I rest—"
+
+nvl clear
+
+scene blank
+with Fade(1.0, 2.0, 1.0, color="#000000")
+
+stop sound fadeout 1.0
+stop music fadeout 1.0
+
+"...until a blinding light wakes me up."
+
+"It's all around and so sudden; even if I just woke up. I suspect I've been found out with police being called; I unzip the opening of the tent and peek, but there are no vehicle headlights or helicopter shining down on me, no flashing red lights of the police."
+
+nvl clear
+
+scene white light
+with dissolve
+
+play music "catherne.mp3"
+
+"I get out of the tent and search around me, but there is nothing but the usual hills and interstate off in the distance. Where is that light coming from?"
+
+"The light is... all around me. It's white, unlike the sun's natural light; but the light moves strangely far off in the distance, like a wave? This white wave of light moves unlike anything I've seen before."
+
+"I watch it engulf the capital city... It “splashes” and starts to spread out in all directions; whatever the light touches is simply engulfed in bright white and ceases to be seen."
+
+"I've no idea what to do as the light starts to come towards me, but the city seems to be nothing but this white wave anymore; no signs of anything other then this blinding sea of pure light."
+
+"Do... I run? Do I hide in the tent? Get to high ground? The wave is already rushing up the capital city in the valley and up the mountains, can it travel up the hill I'm on? It's unnatural growth and speed means it will be here in a few minutes... "
+
+nvl clear
+
+"I don't know if this is the right decision, but I pack up my tent as quickly as I can, with the unnaturally bright white light everywhere I easily undo my tent in under a minute; after all, if this some amazing joke, I don't want to be out a tent."
+
+"I grab my bag and folding chair. With both in hand, I simply start running to a nearby hill as fast as I can. I'll attempt to hide behind it as the white light comes."
+
+# Possibly zoom out from the BG
+
+"As I start to run it's painfully obvious the white lights will get me within a minute, and the hill is a good 5-10 minute run, assuming I can keep up my fastest pace..."
+
+"——"
+
+"I smile and turn behind me to face the wave."
+
+j "What are you?"
+
+nvl clear
+
+"I know it's stupid to expect an inanimate object to talk back."
+
+"—Yet... as I see the light flow, consume, grow with unnatural ruthlessness, I wonder if it's alive. If it will communicate with me."
+
+"I cannot compete with you... whatever weapon you are, whatever technology you are. I unfold my modest chair and sit down, observing the light. Maybe it won't even harm me?"
+
+"I pant, out of breath from the short 2 minute impromtu run with all my gear. The bright white lights; I can start to see them as individual lights now, they begin to roar as they get closer. I'm reminded of the time I was caught in a tornado... It gets louder and louder as it moves closer to me."
+
+"My curiosity turns to resignation."
+
+j "Never thought I'd go out like this."
+
+"The ground is trembling... the lights are a destructive fluid, bubbling ravenously and consuming even the largest trucks and their trailers... Anything touched by those bubbles turns to white and the wave of bright liquid light flows across it."
+
+nvl clear
+
+"Am I really ready for this?"
+
+"Do I even have a choice? "
+
+"I can only smile; I force it. Am I suppose to accept with disdain that this weapon has killed me and made me miserable? I won't grant it the satisfaction, so I force a smile. "
+
+"I know it's more powerful then me, that it's probably real—Or this is a hell of a real dream or medical condition."
+
+"Despite my acceptance of this... phenomenon... My end comes closer."
+
+"I'm afraid. My calm collected ruse I put on for this light... sitting in this chair... waiting... accepting; why? Is god real? Does he want to see if I face my death with a little dignity? I have no idea... what this is. I stand up and look around me."
+
+nvl clear
+
+"The roar grows louder... The ground starts to shake, and... I want to see what this... wave of brightness is."
+
+"When the first humans saw a tornado, they must've thought it was an angry god punishing them."
+
+"Now we know that it's weather; that it's a phenomenon explained by science. It's not an angry god."
+
+"Then... what is this?"
+
+"..."
+
+"I don't want to sit here and be judged."
+
+"I start to run away — I drop my backpack and go into a full sprint. If this is a tornado, some bizarre event in nature or space, I suspect hiding against the ground might be good. It seems to flow... should I get off the ground?"
+
+nvl clear
+
+"The world is shaking apart; I can barely stand on my feet or see where I'm going. I make out a dry creek bed and turn around to see the light right behind me."
+
+"I want to know what kind of weapon this is."
+
+"I want to know what happens tomorrow..."
+
+"I want to know what life will be like in 20 years."
+
+"——"
+
+"I want to live."
+
+"I burrow myself as deeply into the dirt as I can, the ground continues to shake more and more, the sound grows so loud I feel like god is screaming at me to die. And then—"
+
+"—It all stops."
+
+nvl clear
+
+play music "depth perception.mp3" fadeout 3.0 fadein 1.0
+
+scene black
+with Fade(2.0, 2.0, 1.0, color="#000000")
+
+"I don't see anything... I don't feel anything."
+
+"I open my eyes, then check to see if I can feel my hand on my face; I gently smack myself in this darkness, confirming I can feel and hear still."
+
+"Complete darkness; I don't think you would know what complete and utter darkness really is."
+
+"There is always starlight, a vehicle's headlights, the moon, a lamp, a street light. Or you managed to get darkness from putting something over your head, covering your eyes; it can be removed. "
+
+"Complete and utter darkness? I stand to my feet and try to feel around me. There is nothing... There is ground below me, but all I feel is dirt on my skin as I start to feel more of the world in general and get my bearings."
+
+"That wave... did it do this? Did it leave nothing but darkness? Did it eat the light? Destroy and level the world?"
+
+"It's so cold... I start to feel that after a few moments too."
+
+nvl clear
+
+"It's way too cold for a summers day... This is way too cold for a winter's night, even in the desert. I feel my fingertips getting frostbite? I pull my arms into my shirt... My body is being frozen just from standing here?"
+
+"What a horrible... destructive weapon humans have invented."
+
+"What's going on? I want to call out for help, but I'm afraid of what might answer, what might hear me. The sudden silence uneases me and triggers a very primitive instinct to be quiet around danger and the unknown."
+
+"I genuinely believe something will consume me, a predator from the ground or air will hear me and eat me in this darkness. I'm afraid another ball of light will destroy me."
+
+"—still, I slowly take steps and wipe the dirt off my face, hair and arms."
+
+nvl clear
+
+"There is a world here, I can make that claim, but it's so quiet; I look around me; by look I mean turn my head in each direction to see if I can see any light. Nothing. I have a vague recollection of which way the highway is... "
+
+"I look to see any lights; did that white wave eat every last one? Why did it spare me? Are there other survivors? I can only listen, my eyes tell me nothing."
+
+"The cold seems to eat away at me, my backpack... It's gone? I only have the clothes on my body, the things in my pockets... The watch around my wrist. I tap a few buttons, it has a makeshift “light” mode, but the light is dim, hardly meant to function as a flash light."
+
+"In my pocket is a knife, a few chemical coins for lighting and maintaining fires long term, a lighter, my .357 bear medicine around my belt with 6 rounds. I check the time on my watch as quickly as possible, I fear what could be around me; the brief light of the watch is a hazard."
+
+"——11:12pm."
+
+nvl clear
+
+"I quickly turn my watch off, afraid."
+
+"I remember the Mariana trench; that things using light in complete darkness get eaten. This unnatural state has me in a very primitive mindset."
+
+"I listen for what feels like eternity, I wait as long as I think I should, then try to wait twice as long. I tap my watch to see the time... it states it's 12:24am. Over an hour... though it feels like half a day. I can't wait anymore."
+
+"Complete darkness and silence seems to make the world drag out... I draw my gun and set my watch to “light” mode. It projects a surprisingly adequate beam. I'm grateful I can see as much as I do, the floor seems like typical desert shrubbery. I keep my weapon ready in my right hand and watch on the left. "
+
+"I search around me for the tent I dropped and the chair... but there are zero signs of them. "
+
+nvl clear
+
+"Even the small dried creek seems to be gone, no signs of eroded dirt, walls made from water flow... It simply seems dead. Even the plants seem... uneasy."
+
+"They are all dried up, dead?  Yet some are very large... the largest shrubs came up to my waist, some of theseones are like small trees, twice or three times my height at least; my watch light only shows me so much. I'm just not sure what to make of any of this."
+
+"I continue to walk back towards the freeway, I suspect I'll find cars, potential survivors; if that white wave spared me while being in the sand there's no doubt some people within buildings or vehicles survived."
+
+"Yet... My watch tells me I've been walking 10 minutes and I finally see signs of a “road.”"
+
+"I look up and down the road to see skeletons of cars. Rusted pieces of metal, tires too... No survivors."
+
+nvl clear
+
+"Just—What the hell? I look up and down the road with my gun ready. I halfway expect... this is a prank? This is my mind playing tricks on me? This is unreal... A dream? Am I on a drug trip? Did some jokester factory worker spike my canned soup with LSD or mushrooms? Can a bacteria cause someone to go on a drug trip?"
+
+"Am I just in a strange world of my own mind... That has to be it. I follow the road towards Feroni and put away my gun. I don't want police to see me tripping and gun me down with my loaded weapon in hand, I want to find help for whatever affliction I have."
+
+"I can't trust my eyes or ears, my mind, nothing makes sense; There could be cars everywhere... and which would stop to help a crazy man that can't see or understand what his mind sees?"
+
+"I walk along the road, more and more skeletons of cars remain, their tires spread about..."
+
+nvl clear
+
+"The cold starts to take it's toll on me. I see my breath as white with each exhale, I won't last too much longer as I start to move more and more I feel my core temperature falling."
+
+"Deciding to sit down, the ground is even more cold. The ground will suck the heat right out of my body... yet I feel weak from standing in this cold. I decide to use my lighter and chem coin to light a small fire. "
+
+"I grab a few desert shrubs, as usual, but they're unusually hard to pull out of the ground; many of them have long roots I can't pull out, the size of my arm... Some smaller ones come out easily enough and I burn them. I lay on the ground... I'm the only light as far as my eyes can see which has me nervous."
+
+"I tried to dig into the cold hard ground with the corner of my lighter but didn't get very far... it's frozen."
+
+"As the fire crackles I try to dig under it, hoping for it to thaw the ground; I do what I can to put dirt and a few rocks I see nearby around my fire to increase concealment, but I still stick out like a sore thumb."
+
+nvl clear
+
+"I check the watch and an hour has passed... when is morning coming? I look up to the sky and notice no stars at all... I imagine that white weapon kicked up enough dust to block out the stars..."
+
+"It's tiring being out here, but I end up hearing nothing as another hour passes; my mind keeps waiting for something to happen but nothing does. I grab some more of the shrubs and feed the fire, despite laying close to the flames, I still feel so damn cold."
+
+"With my eyes closed and staying close to the fire for warmth, I finally start to hear something in the distance. I imagine it's another survivor... lost like I am, desperate like I am."
+
+"I call out to them."
+
+j "Hey stranger! You alright?"
+
+"I say loud and as friendly as I can manage, it sounded far away, whatever it was."
+
+nvl clear
+
+"——"
+
+"It stops making any sounds what so ever."
+
+"..."
+
+"What have I done?"
+
+"No more footsteps."
+
+"No light from it."
+
+"How is it walking without light?"
+
+"Did I... just kill myself?"
+
+nvl clear
+
+"Something inside me changes as I assume the worst; I grab my weapon and stand."
+
+"I walk away from my fire, as quiet as I can. I fall over something on the ground and hit frozen earth. I scramble to my feet; while doing so I feel a rock. I throw it towards the location I last heard the noise, wondering if I can trick the potentially violent creature, person... or light? I point the gun too, I cock the hammer."
+
+"From behind me, I hear a man speak. His voice sounds confident, cocky, teasing."
+
+ujameson "Well well."
+
+"I turn around and point the gun."
+
+nvl clear
+
+ujameson "I commend your efforts, sleeper."
+
+"The voice comes from my side this time."
+
+ujameson "I'm certain you have no idea what's going on. I want to help you... but we're in the middle of something right now."
+
+"I hear fingers snap and suddenly see something."
+
+"There are four... Humans? Creatures that resemble humans... they seem to burn and glow a black light, how that's possible, I do not know. The four stand in front of me."
+
+nvl clear
+
+uathena "You need to get away from here as soon as possible."
+
+"A calm, concerned girl speaks."
+
+urachel "Hmm? Maybe he wants to die. You shouldn't be so presumptuous."
+
+"Another girl speaks, sounding empty, apathetic, deadpan."
+
+uathena "He has a gun, doesn't he? He could have used that if he wanted to die, no one would choose to die this way..."
+
+"The calmer, concerned voice trails off."
+
+ucatherine "Give him the gift of magic and we will move on. He should not be condemned; all humans deserve a chance to live, L.I.W. is waiting for us"
+
+"Her calm voice sounds... authoritative, to the point, confident; still young, they all sound young."
+
+nvl clear
+
+ujameson "Now, now."
+
+"The man speaks, I feel a hand on my wrist point the gun upwards. The strength he uses is so precise I can't even comprehend resisting."
+
+ujameson "You put that thing away and we'll talk real quick. You three go on, I want to help the good man."
+
+uathena "I know he's a human... but..."
+
+urachel "Your heroics know no bound. I'm telling L.I.W. that you think helping a stranger is more important."
+
+ucatherine "Teach him well, but teach him quickly. Time is of the essence, Jameson."
+
+"A swift, windy sound seems to play and they each disappear from sight; except for the one holding my wrist."
+
+nvl clear
+
+j "I—I don't know what's going on.... Jameson, was it?"
+
+jameson "Yes. Jameson."
+
+"His figure is shrouded in a barely visible silhouette. He raises an appendage..."
+
+scene desert light
+with dissolve
+
+"A light turns on around us, it floats in the air."
+
+jameson "This is light. You will need it out here. I will teach you how to make it, but be warned, once I show you how to use {i}magic{/i} you will never be able to turn back. You will never be able to unlearn it. Some people in this world may hate you for that. I have to ask you if you are willing to learn it first, because some things are better left not knowing. Look at what I’ve become because of {i}magic{/i}."
+
+nvl clear
+
+"With the light on... the shroud surrounding him is revealed. He seems to glow black, as if his body is on fire. His eyes are green and reddish black flames seem to emanate from his silhouette silently."
+
+j "Will I become like you if I learn?"
+
+"I don't question him."
+
+"I don't ask what he is."
+
+"I don't ask why anything is."
+
+"I don't know what's going on."
+
+"If I wake up in a hospital bed..."
+
+"Doctors telling me I was drugged or high..."
+
+"I'll have one hell of a story."
+
+"I simply accept what this man says as true."
+
+"Because..."
+
+"This all feels real."
+
+nvl clear
+
+jameson "It's not ordained. You push too hard on magic and you become like me. You want to take being a human, humanity to it's furthest limits with magic, you become like me. I am sleepless, ageless, hungerless and more powerful then any other human you will encounter, some exceptions might be the three I was traveling with."
+
+j "Then teach me to make light, stranger."
+
+jameson "You are okay never being able to unlearn it?"
+
+j "Yes."
+
+"Jameson nods."
+
+"He simply points at me, I feel something warm across my shoulders spread through my body, then suddenly stop."
+
+nvl clear
+
+jameson "It's cold out here. You can simply create heat as well. You will need those two things, heat and light. Want for them more then you've wanted anything else, you will have them. Try it; focus the heat and light into your fingertips and point them away from yourself or anyone you don't want to heat up. It's all in your head, all in your thoughts, all in your mind, all in your imagination"
+
+"He methodically sways and taps the side of his head."
+
+"I do so. My thoughts go to heated fingertips; it simply happens. The heat becomes light, dim, shinning in a direction like a flash light to where my fingers point."
+
+jameson "Good. You're... unnaturally talented at this. What is your name?"
+
+j "Joseph."
+
+nvl clear
+
+jameson "You were not a mage in the past, were you? Hiding your abilities from me out of fear? I won't attack you."
+
+j "I'm... not a mage? I'm not one, as far as I know."
+
+jameson "Sorry. Your name... was?"
+
+j "Joseph."
+
+jameson "Maybe I will hear about Joseph in the future. You have good instincts with magic, you must think a lot; you must be in control of your own thoughts, know who you are, have a sharp mind and sharp thoughts; that's good. Turn the directional light of your fingertips into a... light-bulb. You're a sleeper from long ago, aren't you? You had light bulbs?"
+
+nvl clear
+
+j "Yes, of course."
+
+"He scoffs."
+
+jameson "{i}Of course, he says to me... a creature older most other living things on this planet, a human... {b}of course!{/b} No one has used a light bulb in... 1700 hundred years; you've no idea the effort I go through to make a proper metaphor for you to understand, sleeper!{/i}"
+
+"His insane monolog seems to be half heartedly joking and rambling, yet exudes a sense of insanity and seriousness as he whispers under his breath; it's clearly loud enough for me to hear."
+
+jameson "Good that you know of light bulbs. Turn your light into a light bulb, detach it from your body. Focus the energy it will need, then remove the light from your body. If you remove magic from {i}yourself{/i} it will be powered by what is left instead of {i}yourself{/i}"
+
+nvl clear
+
+"While his words seem insane, as I control this fingertip at my light I understand what he's saying... it seems to use me, Joseph, as the energy source. I need to give it a different energy source."
+
+"It's simple. I focus on making a light in my palm, then focus on moving it; I simply “want” for it as Jameson says. It happens, simple as that. My light moves in front of me, independent of any action I take other then my thoughts of the light."
+
+jameson "Good, good. You're a very unlucky guy being here... but maybe lucky. You came across the nicest guy left on this planet, heheh... This isn't a good place to be...Do you remember the old city here, Feroni?"
+
+j "Yeah... I was headed there when a white sea of lights... destroyed it?"
+
+nvl clear
+
+jameson "Huh... That was so long ago... Back when I was still normal; back when we thought things could be different... For now, you should go away from this place. Head west or south. I wish I could help you more, but—"
+
+uliw "You are really here."
+
+"A calm but wise voice interupts him; she sounds older, but not old; just not as young."
+
+uliw "My, the life of one sleeper is more important then taking out a geyser? You must be an exceptional man, sleeper."
+
+"A lady in a pure white dress and long blonde hair floats towards me; seemingly appearing from the darkness; or was it the light? She has no presence... until she speaks. Her body looks entirely human; no blemishes, pure skin, a pure dress and bright red eyes."
+
+nvl clear
+
+j "W—Who..."
+
+jameson "L.I.W. Is her name."
+
+"Jameson seems to roll his eyes through the black, fiery silhouette."
+
+liw "You are kind, Jameson... It is good to keep your kindness, even in times like these, but you understand our time constraints, do you not?"
+
+jameson "I do. The man needed help. What's the point of what we do if I can't help a man with no chance to live?"
+
+liw "I understand. You have given him a chance... now we must go. I will need the strength of each one of you to pull off our attack."
+
+nvl clear
+
+"She gently turns her head to look at me and begins to move closer."
+
+"Even as she floats, there is elegance to her movements. Her body glides effortlessly across the ground and cuts through the air without moving. She stops in front of me, above me; then lowers herself to my eye level."
+
+liw "I am sorry. I do not wish to condemn a human... but you have our greatest gift now and seem rather talented at using it. Please survive and live a good life. Jameson, let us be on our way, if you would."
+
+"She slowly turns to face away from me, long hair flowing effortlessly behind her."
+
+jameson "Yes, L.I.W. Nice meeting you, Joseph. You seem alright. You may not want to mention us... Unless you really trust the person you tell. Heheh..."
+
+nvl clear
+
+"Before I can even ask them a question..."
+
+## Possible camera pan / different cg showing the sky
+
+"The one called L.I.W. quickly soars into the darkness above; her dress seems to wildly go about as Jameson's shaded figure silently moves through the dark behind her."
+
+## Camera pan back
+
+"I look back down to the normal earth."
+
+j "Greatest gift... huh?"
+
+nvl clear
+
+"I make the light in my palm and put it ahead of me. I make the heat at my fingertips and simply let it surround my body from those tips. The intense cold gives way to a comforting warmth that travels through my body from my fingers."
+
+"A strange set of visitors... I wonder of their purpose, their “attack,” who they are... Is that how the world is now? That man... Jameson... he said something about  1700 years ago? No light bulbs... To not tell people about him... about all of them?"
+
+"A sleeper, they called me; what's that? I was so in awe of what I was seeing the critical part of my mind just turned off. Has it been 1700 years? Or... Was that just the rambling of a madman?"
+
+"I wiggle my fingertips around, moving the beam of light."
+
+"There is an excitement in the air as I use this light. It's... magical, literally, apparently. I can move the light in every which direction I desire."
+
+nvl clear
+
+"That man told me to get away from here... to head west or south. I'm not too keen on heading back in the direction I was walking in from, even after all these years."
+
+"I wonder what Feroni looks like after all this time. Gazing past the ridge shouldn't be too daunting, I'd like to see it in the morning and then head out."
+
+"I navigate the vaguely familiar terrain, the layout has changed but the general lay of the land is the same as I remember. I get to what I think is the top of a hill and wait for daylight. It's difficult to get my bearings without being able to see further then these beams of light from my fingers."
+
+"The thin cone of light from my watch seems so pathetic by comparision. "
+
+"My watch says another 30 minutes has passed from being around the fire, but I'm doubtful it's even synced up to anything, it should still be accurate compared to itself though? "
+
+nvl clear
+
+"The sun... should come at some point? I look up to the sky, it's black and empty... Unnatural, uneasy... No moon or stars... I get the impression of being in a tank, a cage, yet I'm outside and free as any man can hope to be. It's an odd sensation to feel enclosed here."
+
+"Even though it's cold out here I feel warm, so long as I focus on the creation of heat and moving it around my body."
+
+"A small aura of warmth permeates around me as I wait for more natural light. As I consider my situation, the awe of this light I can make simply wears off. I remember my earlier concern; giving away my position in an odd world."
+
+"Maybe humans aren't the same, maybe we aren't normal anymore... Though that beautiful human, L-i-w seemed to be a natural human, beautiful and not with the glowing black flames."
+
+scene black
+with dissolve
+
+"I turn off my light after playing around with it and sit in the dark... I signaled to others with light, but they were kind; I was lucky and told to leave here though, should I abide by Jameson's request?"
+
+nvl clear
+
+"My situation is strange, though I do my best to think strategically. At the very least, I want to wait until daytime to travel. I just keep myself warm and eventually wonder about this dark, empty, cold void of a world."
+
+"If magic can make light, make heat, it can make other things, I assume. I roll over to my other side, the ground isn't all that comfortable... I wonder if I can make a bed; a comfortable, king sized bed."
+
+"{i}Want for it like you've never wanted anything before...{/i}"
+
+"Jameson's advice for making heat and light."
+
+"Well... Right now I would love to have a nice bed, warm blankets... I close my eyes and simply think of it. I imagine the greatest bed, regal and ornate, full of high thread count sheets, bedding and blankets, pillows made of pure silk, I paint a vivid picture of one in my mind and hold out my hands. I want something to manifest, I want to have this and get some real rest."
+
+nvl clear
+
+"I'm reminded I was woken up in the middle of the night before having a full rest, my body is tired now that I'm feeling more calm. I think and want for this bed for a few minutes, eventually I open my eyes; of course I see nothing in darkness, but I hear and feel nothing in front of me either. I quickly shine a light in front of me to see no bed."
+
+"My realization leaves me a bit sad, creating light and heat was simple but a bed isn't so easy. I would settle with a blanket..."
+
+"I imagine and think deeply of the blanket I traveled with the past few years, a light weight and comfortable blanket I haven't been able to find a second copy of. It's a sleeping bag... but I doubt this magic will care too much about the finer details. "
+
+"I remember it's feel, the touch, the insulation, the light weight, the water proof nature of it, the cold winter nights I slept in it, it's so familiar to me and I've always thought I had a good memory... I open my eyes again and make light."
+
+"Nothing lays in front of me."
+
+nvl clear
+
+"Annoyed, I wonder if I'm doing it wrong. I make light, I'm making heat... I wonder if I can make a laser? I point in a direction and shoot out a “laser” or a beam of energy, light—whatever it is to cause something to burn or break."
+
+"Oddly, I hear a light thud in the dirt."
+
+scene desert light
+with dissolve
+
+"I turn on the light again, this time very dim; I point my finger and think of it as a weapon... I worry my hand will turn into a gun and shoot, but the laser shot goes out; something certainly hits the dirt and kicks up dust and debris."
+
+"I can make heat, light, lasers, but no bed. This dry, cold desert has me thirsty. I imagine water; it doesn't seem to appear before me... at least not right away. As time goes on, minutes, I notice a small collection; maybe a raindrop of water forms in front of my eyes; floating so gracefully in a seemingly perfect circle."
+
+"I drink it, certainty it tastes like water, a bit... stale, but still, water is water. My dry mouth appreciates it... but it's not enough to satiate me. I can't help but wonder why I can make light, heat, and lasers so easily but barely manage water and no bed."
+
+nvl clear
+
+"I lay back on the ground, at the very least I can dig into the frozen earth with ease, I don't use my hands but simply imagine an invisible shovel and dig through the cold ground easily, it's amazing to see the dirt simply come off the ground with each thought."
+
+"I dig the hole and crawl inside, it's more comfortable then the uneven ground at least and there aren't any rocks or anything hard to rest my head on, just a pile of dirt. My hair gets dirty, but I'll suffer."
+
+"I check my watch, the time is around... 6am. I close my eyes, with the warmth I almost feel okay out here, despite the pure darkness every time I open my eyes; If I went blind I would never know out here, sometimes I point at the ground just to make sure my eyes work with a faint light spell."
+
+"I start to tire of laying here... Wind picks up and it's sound soothes me, it's nice to hear some form of existence out there in the world. It blows through some of the shrubbery and makes noise, I stay in my hole to get away from it's cold, despite enjoying the sound."
+
+scene black
+with dissolve
+
+"I 'turn off' the light, and I try to relax by closing my eyes and thinking. A fear of hunger, water, exposure comes to mind. I never wanted to return to a world before modern civilization, I merely wanted to avoid it and reap it's benefits."
+
+nvl clear
+
+"..."
+
+"...I suppose I never contributed much to that civilization, but how much can I do as one person..."
+
+"All manner of negative and positive thoughts go through my mind as I simply wait for light to shine."
+
+nvl clear
+
+scene black
+with Fade(2.0, 2.0, 1.0, color="#000000")
+
+"Time goes by... I checked the watch around 11pm... Now it finally shows 11am. I've been falling asleep for an hour or two at a time. Eventually, it no longer matters how long I keep my eyes closed, so I've simply been lying here in my thoughts."
+
+"My excitement starts to turn to fear. I look up at the horizons, to the starless and moonless sky and ponder. "
+
+"Why is it so dark?"
+
+"Where is the sun?"
+
+"What's the limitation of this magic? What can it do and what can't it do?"
+
+"I sit up in my hole, my head pokes out. I wonder if I can see in the darkness? Without light? I focus real hard and “want” for it. I imagine the world, the terrain, of seeing things."
+
+nvl clear
+
+"That's all Jameson said after all. To want for something, to have a sharp image in my mind, to be in control of my thoughts—After sitting in this dry hole atop a hill with nothing to entertain me but my thoughts, I feel in control of said thoughts as I stare at the blank void in front of me."
+
+scene desert vis
+with dissolve
+
+"For a brief moment the world flickers from day to the pure darkness... Then the world appears in sunlight and, strangely, the sky is still black. "
+
+"Around me are four legged creatures marching towards the distant city ruins; Feroni. All around me... four legged beasts that stand 10-12 feet tall march on their four legs, with massive alien claws around their arms... There are only a few here and there, but they are all around me, spread out, methodically marching."
+
+nvl clear
+
+"I feel a sharp stabbing sensation in my eyes, completely and entirely unseen, like a knife cutting through to my brain. I surpress the urge to cry as I hold my closed eyes. As I writhe on the dirt in agony. I can tell there is no wetness on my fingertips, no blood despite something piercing my eyes."
+
+"I hide in my hole fearing I've been shot or stabbed; but the pain subsides after a few seconds. I make a faint light, as faint as I can possibly imagine. I touch my closed eyes, there is no blood on them, no blood on my face; and yet I felt a stab through my eyes."
+
+"I poke my head out again and try to “See in the darkness” I want for it, weakly, afraid of what I saw. The stabbing pain starts go grow as the world flashes from day to night, but I endure it and continue to examine my surroundings."
+
+"The landscape has massive plants, trees that are abnormally tall, there are bits of junk on the ground here and there amist the dirt, but nothing extravagent. It's easy enough to remember the general lay of the land, at least from this elevated position. "
+
+nvl clear
+
+"Tall mountains remain where I remember them, cutting off direct routes across parts of the land without great effort. As I survey the landscape, my eyes turn towards where the once beautiful lights were."
+
+"Off in the distance... At Feroni... there are massive creatures; the size of buildings? Some float in the sky... Alien beasts, some appear as massive crabs, others as bi-pedal almost human looking aliens... My vision is clear for a few moments before the pain intensifies to an invisible knife cutting into my eyes."
+
+scene black
+with dissolve
+
+"I close my eyes and want no more to see. Something cuts through my eyes and into the back of my skull. I clench my fists and let the pain subside... A few moments later, I'm ok."
+
+"The pain was more intense the second time... My body is in a sense of shock, even though the raw sensation of the pain is gone, I still have the memory of that cutting, of something pushing its way from the outside world into my eyes, into my skull and exploding."
+
+nvl clear
+
+"——" #Ring
+
+"——" #Thud
+
+nvl clear
+
+scene black
+with Fade(2.0, 2.0, 1.0, color="#000000")
+
+"——"
+
+"I snap to attention... did I just lose my consciousness? I open my eyes and worry, I can't see anything—I remember the darkness, point downwards and illuminate from my fingertip. I can see the uneventful dirt and my legs."
+
+"The old city... Their silhouettes linger in my mind, the alien details of their bodies and massive size."
+
+"Those four legged creatures... Those beasts near Feroni... I remember the concerned girl's words."
+
+"{i}You need to get away from here as soon as possible.{/i}"
+
+"I remember her saying that, she sounded worried... genuinely worried. The others... they waxed on about a gift, they joked about me. Jameson and her; whoever she was... they were the only two that cared for me, I hope to repay their kindness some day, I don't know how, but I have the gift of magic. Heat and light."
+
+nvl clear
+
+"I saw Feroni, I don't want to get closer, I don't want to see it again. I'm thirsty and there is no light coming, it seems. I want to wait for sunlight, but if it never comes I'll be waiting forever. Those marching four legged, 12 foot tall beasts... Their massive blades, all of them marching towards the town..."
+
+"The closest ones could run to me in a minute or two, assuming they can run as fast as I. I think of how within the animal kingdom other creatures can be a lot faster than humans. Maybe I could run to them in a minute or two, but they could likely get to me faster."
+
+"I will wait 24 hours. If the sun does come up by 11 the next day... This thirst will kill me long before they do. So I'll wait; I focus on collecting water, but I get droplets every so often. I wonder about what I can do with this magic, but for now, I calm my mind and focus my thoughts on water."
+
+scene desert light
+with dissolve
+
+"There are trace amounts of water in the air and soil. I raise my hands upwards with a faint light and focus on that water, of the air around me, I look up to see—"
+
+nvl clear
+
+## CG with Rangris! Maybe!
+
+stop music fadeout 1.0
+
+scene desert light
+with Fade(1.0, 1.0, 1.0, color="#000000")
+
+play music "bloodbath.mp3" fadein 1.0
+
+"A burning angel is all I can describe it as at first. With a wave of her massive, empty, metal hand across her face, I can make out the intense gaze she has upon me, as well as her feminine features."
+
+"Blackened wings, a faint glowing red fire to parts of her body, silver metal seems to rest elegantly atop her large frame. All parts of her except wings are protected by metal or red flame; a massive red fire that seems to give off no light is in her right hand. It burns so intensely, despite being so dim; the fire dances wildly about and seems to grow into a long lance."
+
+"A second figure, reminiscent of Jameson floats in the air; a mostly darkened body but not as engulfed in the pure black flame as Jameson and his friends were. I can see her face, her features, even though she remains partially shrouded in the dark fire."
+
+ualice "You really didn't see us this whole time?"
+
+"I can't seem to muster the courage to stand or speak at first, these two are in a position above me, one seems to be glowing a dim blood red fire to her body."
+
+nvl clear
+
+j "N...No..."
+
+"I finally manage to say."
+
+ualice "You were in a state of shock. I've no idea for how long... You likely would have been stuck that way until you died. Just what were you doing?"
+
+"As the small one with dark fire looks away, the angel points the burning fire that is her weapon at my neck, just below my chin."
+
+"My heart starts to pound wildly. I hear loud sounds, explosions, screams, vibrations—I'm reminded of that roar from before the world went dark. It's so loud in my mind as the red fire roars, it seems so hot too—so hot... I feel my face starting to burn along my mind threatening to erupt from the loud sound."
+
+"In the instant I can't bear anymore—The red fire disappears, revealing a long and strange blade... it still resides under my chin and next to my neck as I lay on my back."
+
+nvl clear
+
+j "I—I was... Trying to see in the darkness."
+
+ualice "Oh?"
+
+j "Yes. I'm not here to do anything to either of you."
+
+"The angel leans in as I speak those words, her face next to mine."
+
+uran "Yes. That much is clear now."
+
+ualice "Now now, Ransigdnr, not everything is a security issue; but I don't believe him at all. You should turn on your blade again, let his face and mind melt for a few seconds before you show him mercy."
+
+ran "As you wish, master."
+
+nvl clear
+
+"A dim light grows bright as the fire starts to burn across the strange steel, the sounds of screaming go into my mind as well; my heart pounds wildly in reflex, despite my trying to stay calm. I panic."
+
+j "I was trying to see in the dark! That's all! I just woke up after being—uh—engulfed in a massive white light! I've no idea whats going on here or—or why the world is dark, or who anyone is, or why there are 4 legged creatures walking—"
+
+"I cough as I try to expel as much information as I can possibly think of while the flame grows more intense."
+
+ualice "That much is obvious. Off with his head, Ran."
+
+"The angel's arm is pulled back so quickly I didn't even see it; I simply bear witness to an instantly raised blade from it being at my neck, seemingly before the order to take off my head is given. It roars so wildly, an unpleasant whining sound of grinding metal; as if an airplane is falling  right on top of me. I try to put up my arms and wince."
+
+nvl clear
+
+"——"
+
+ran "It's not a real way to tell if he's a sleeper."
+
+ualice "I know, Ran, but he's awfully trusting of a ruthless celestial otherwise... He's either a sleeper, an idiot, or incredibly brave."
+
+ran "I wonder which."
+
+"I lower my arms and see the two still looking at me."
+
+ualice "Well, you picked an interesting time to come out of stasis, sleeper. I suggest you get away from here—Don't play with magic you can't handle either. Next time Ran and I won't be around to help you."
+
+"I scurry to my feet as the two disappear from my sight, I stand and make light."
+
+nvl clear
+
+j "Hey!"
+
+ran "Oh? The boy has found his voice, it seems."
+
+"The angel turns to face me."
+
+j "Boy? I'm hardly young."
+
+ran "Huh... I'm over a hundred thousand years old. All of you humans are like children to me."
+
+j "Is... Is that so?"
+
+"She closes her eyes and nods."
+
+nvl clear
+
+ran "My apologies for frightening you, it is not kind to frighten children. Unfortunately, even at a young age, humans are capable of awful things."
+
+"She puts a hand over her chest and lowers her head slightly, as if apologizing for both her words and her threats."
+
+"Despite her ruthlessness, she takes the time to keep her head lowered for a short while."
+
+ualice "Ran, we need to get going."
+
+"The angel looks off to the darkness which the voice came before turning her gaze back to me."
+
+nvl clear
+
+ran "You are from so long ago, human... You cannot survive here."
+
+j "What am I? A sleeper? What does that mean?"
+
+ran "One whom escaped their circumstances by stasis. A ripple... Time will travel around you, but you remain the same. It is how my kin traveled to your planet so long ago."
+
+j "Time?"
+
+"The angel nods."
+
+nvl clear
+
+ran "I cannot give you guidance... Though you seem innocent for a human, I apologize... I must turn my wings on you... I would love to speak with a human from so long ago, but... my master beckons and I owe her everything. I leave with you this last gift, if you would excuse me."
+
+"Her metal hand—Or is it a claw? It slowly, gently, and with great elegance reaches out and extends a finger. It touches my arm just below the shoulder, a sharp, burning pain starts for a brief moment before calming down."
+
+ran "This will give you safety for a short while. Please, journey swiftly."
+
+"She turns her wings to me and jumps into the air."
+
+nvl clear
+
+j "W—Wait! Who are you?"
+
+ran "My apologies."
+
+stop music fadeout 1.0
+
+"I faintly hear her voice over the gusts of wind as she flys away."
+
+play music "depth perception.mp3" fadein 1.0
+
+"...How many people are going to randomly appear from this darkness? How do they all navigate it so well?"
+
+"I remember my spell to see the world as say, just as I remember it leading to being ambushed and awakened by those two strangers."
+
+nvl clear
+
+"My plan—before they came was to wait another 12 hours for light, then head out. I sit back in my hole. The cold unforgiving winds remind me that I should seek shelter and wait."
+
+"And wait I will... I examine the spot the angel touched me, burned me."
+
+"{i}This will help you survive.{/i}"
+
+"It seems non-descript, a simple part of my arm with no change what-so-ever. I can't make anything from it, so I wait for the light of day to travel again; once more, with nothing but my thoughts."
+
+"There's a special place for hating monotony in my heart. I think and think about what happened, why the sun isnt here, what those creatures are, who those people were. I think everything is aliens, demons and I've been put in a bizzare landscape. "
+
+"Maybe I died and this is just hell. It doesn't matter what I do or think, I absolutely despise sitting here and doing nothing. With hatred in my mind, I simply sit here and drink droplets of water. I get a few every half hour or so..."
+
+nvl clear
+
+"More meaningless time. My mind starts to crumble, I want to walk now, but I told myself 24 hours. The sun has to come up at some point; maybe the planet was moved further from the sun? Our daylight cycle could be different... Either way, I wait a few more hours."
+
+"2pm."
+
+"4pm."
+
+"6pm. I sleep a few hours here and there. I wake up to a helping of 12 tiny circle drops of water; nice to know the spells work when I sleep, I suppose I've even felt warm as I slept, so that spell works."
+
+"Around 6:30pm I start to see a sunrise."
+
+nvl clear
+
+play music "batinen.mp3" fadeout 1.0 fadein 1.0
+
+scene desert vis
+with dissolve
+
+"The hilly area around here finally lets up. I see off in the distance, the city, the mountains behind me, the massive hills around the mountains, the incredibly oversized plantlife, a few massive trees growing unusually thick and abnormally high... "
+
+"As the light starts to hit the plants, they “come to life”; their seemingly dead leaves and branches spring up. It's strange to see a plant move so quickly with the sun, but the viberance of their colors change, the branches move before my very eyes and stand erect and parallel to the sunlight hitting them."
+
+"Those four legged walkers are easier to see... There are very few remaining compared to memory. One or two in this small open field I'm in, more are methodically walking towards Feroni, each seems to want to move towards that town."
+
+"There is beauty in this new world, in light, in plants... Maybe it's dangerous, I've always respected nature's cruel hand. It isn't beautiful, it's brutal and harsh, but that doesn't mean it can't be beautiful at times either. "
+
+nvl clear
+
+"Plants around me seem to let out sounds... Different pitched whining; they let out bits of glowing dust to one another, pitches of whining go back and forth in an odd song. It isn't pleasant or hard on the ears, their communication simply seems to ignore me."
+
+"I stand up, the wind still seems to be here... I look off into the distance of Feroni, light is faint but if I focus my vision; I almost imagine and want for it, but... I recall the pain in my eyes for wanting to see in the dark. Maybe the eyes aren't capable of handling the magic, maybe... something is wrong with using them."
+
+"Yet... I focus my eyes, I want to see more clearly, to see with magnification; it happens as simply as I want it, maybe a bit too easily the magic activates. I worry about the pain in my eyes, I'm willing to stop at the first sign of pain, but nothing seems to happen this time."
+
+"My eyes see far, I can't tell great detail but the same beasts from the night before are all around. All of them foreign and alien, some large hordes of bipedal, seemingly rotted humans wander about aimlessly too. I've no idea what more to make of it as I stare for minutes."
+
+nvl clear
+
+"The song playing around me continues... I stand out of my hole and look around at the plants and large trees once more. The road is gone, the civilization I once knew is gone, rubber tires seem to remain with pieces of metal. Buildings far in the distance... my tongue feels dry, as does my throat."
+
+"I start my walk to the west, the way the sun approaches."
+
+"Each step I cautiously look to the four legged creatures, but they seem to pay me no mind. I wonder of their origin, purpose, evolution... Focusing on my warmth and minor light, I continue to hike through these hills."
+
+"As much as I traveled the road, I am no survivalist. I had a tent, I had a bank account with money saved; I bought food at a city and simply traveled by foot. I did things like use water purification tablets, filters, boil water; I even used a .22 pistol to shoot and kill a few squirls, rabbits and prarie dogs and learned to prepare them; I even learned about a few edible plants, but it was all for fun and interest of being on the trail, not to survive. I head west because there is a river there and I need water, a simple decision."
+
+nvl clear
+
+"I grow hungry after only an hour of moving, my thirst grows too. The sun above me turns the world so warm I start to get hot, I dispel the heat I was using around myself and begin to fan myself with wind. It's not awful, but I can't help but learn to hate the intense sun cooking and overheating me after only an hour in it."
+
+"When did it start to get so hot? I wipe my forehead, sweat... Yet the intense cold from less then an hour ago was giving me frostbite. Did something happen with our climate? Was it that weapon, or just our human nature that did it... I can only ponder."
+
+"I focus on making a “reverse light” something to take the sun away, something to block the light, if nothing else. It happens easily as well, an umbrella of sorts that floats above me and darkens where I walk; so convenient as it follows and tracks my every movement and needs only a passing thought to be maintained."
+
+"I walk further and further from Feroni... the four legged beasts seem serene as they each march towards it. I've no idea why or how, some even get within distance for me to barely hear their footsteps; the creatures are surprisingly quiet. I want to call out to one, I assume they dont view me as prey... I walk closer to one."
+
+nvl clear
+
+"The beasts are tall, well scaled and clearly have eyes as they march along. Their tails are long and seem to have something spiky on the back of them, upon closer inspection... the blade on their right hand seems more like a constructed metal rather then natural claws made by nature, these beasts seem like weapons created or bred for war rather then a natural animal."
+
+"I wonder why they wander, I wonder if they wonder about why I wander as well. It seems to keep walking by me, paying no mind at all; they seem so simple and at peace."
+
+"I walk along with more confidence... the heat is oppressive, even with the wind blowing on me and my shade. I focus on keeping myself cooler rather then generating heat and it works as quick as I think of it. Without anything else to go on, I simply trek onwards."
+
+nvl clear
+
+"Two hours in the heat and I start to notice the sun already “setting” or at least disappearing in the sky, as of a black curtain looms above. I would normally be a bit worried, but the very few rare four-leggers, as I've taken to calling them, seem so calm and peaceful despite their fierce appearance. I haven't seen any for the past 20 minutes anymore. Sunlight begins to fade and so does my cooling spell, I continue to walk."
+
+"As the sun fades I turn on my lights again, maybe I overestimated the hostilities of this world. I use a fairly bright light and maintain a second one around the area, letting me see things off in the distance as I continue walking. There have been no sounds again, an occasional wind but nothing else. I check my clock... it's past 11pm. I'm certainly hungry but also thirsty. I want water... I hope a river is still here, it dawns on me as I walk that this river was here 1700 years ago and I've no idea if it still is."
+
+play music "reztus.mp3" fadeout 1.0 fadein 1.0
+
+nvl clear
+
+scene desert light
+with Fade(1.0, 1.0, 1.0, color="#000000")
+
+"Even so... I've no other option. The few droplets I grab from the air are an amazing grace to me whenever I consume them. As hungry as I am, the can of well-salted meat wouldn't do me any good with this lack of thirst."
+
+"My odd sleeping pattern leaves me feeling awake at 11pm. All I can do is move through the darkness, I grow tired of looking at the surroundings; I love to take in the scenerey, to enjoy life, but I'll have no life to enjoy if I don't get something to drink. I check my watch, it's already 5am? I continue to march through darkness, west and west..."
+
+"I stop checking my watch. Time goes on. I grow thirsty and now tired, fuck it. I eat my snap the top of the canned meat off and eat it. Salt or not, I'm going to at least have some food energy. I eat and walk, the uncooked meat is unpleasant; I focus on heating it up with the same “heat” spell, I just focus more intensity and will into my thougths and it starts to cook."
+
+"It occurs to me, is the sun even west anymore? I would feel really stupid if I was told to go west and went the opposite way. Why did Jameson tell me to go west or south? I don't have a compass, my watch doesnt seem to tell me the directions; it just shows a malfunction for whatever reason. This was the way the sun was, the sunsets in the west and rises in the east, if that is still true, I am heading west."
+
+nvl clear
+
+"The cooked meat is nice... Salty, the can I cooked it in is hot, but I simply tear pieces of the meat off and move it with the power of my mind."
+
+"If I die I'm going to be sad I don't get a chance to experiment with this new found gift. I feel too tired to carry on eventually and dig a hole in the ground and lay in it. With no concern for time, I simply lay and rest until I don't want to lay and rest anymore."
+
+nvl clear
+
+scene desert light
+with Fade(1.0, 1.0, 1.0, color="#000000")
+
+"I wake up on my second “day” feeling awful. My stomach hurts, my eyes feel dry, my mouth feels dry, my guts in general just don't feel right. I wake up to a boon of 15-20 droplets of water, they seemingly disappear into my dry tongue."
+
+"I force myself to keep walking... There is no end to the darkness. West... He told me west, why would he lie. He seemed like a well to do guy, he seemed nice, he took the time from his important “attack” to help me."
+
+"The light eventually rises again... I cool myself off and shade myself, then continue moving. Far, far off in the distance... I wonder if I see water? I enhance my eyes but it's hard to tell, Feroni was very close but this distance is just too damn far to make things out. I get annoyed of my lack of vision and just keep walking."
+
+nvl clear
+
+"The light turns to night again... I grow tired again... I've started to hate life. To be so thirsty and die is ridiculous. There has to be water somewhere,  a river somewhere, maybe if I walk far enough I'll get out of this damn desert where I can drink as much water as I want. Fuck this desert, why did I even bother traveling through this area? Was I just suppose to assume some mysterous white wave of light will annihilate civilization as I know it and give me no food or water to eat?"
+
+"I vent my frustrations on my newly dug hole, everything around me looks the same. Dry, dirt, shrubs, cacti, rocks, hills... I lay in my hole and sleep as long as I want."
+
+nvl clear
+
+scene desert light
+with Fade(1.0, 1.0, 1.0, color="#000000")
+
+"My third day I wake up with a headache... My heartbeat seems more rapid as soon as I stand up. I feel like I'll collapse as I get on my feet. I don't know if I'll make it, I genuinely might dehydrate to death."
+
+"I see the droplets of water in front of me that collected while I sleep, the 15-20... My mind fades for a moment as I close my eyes and they disappear."
+
+"I look at the ground with my light and see them in the soil. I attempt to extract them, but nothing seems to come out. How I want for them so badly; yet they don't come. This “magic” isn't as concise as I'd like it to be."
+
+"Finally, I stand and walk... Slowly, but I do. I've no idea of my terrain, but I keep the light on and slowly navigate. My eyes are so dry, they seem to just hate being open anymore but I still navigate."
+
+nvl clear
+
+play music "lure.mp3" fadeout 1.0 fadein 3.0
+
+play sound "stomp.mp3"
+
+"..."
+
+"At some point... I hear things around me. It's loud, it's charging at something, it gallops and runs; I open my eyes and shine a light on it."
+
+play sound "load.mp3"
+
+"My legs bend and I draw my gun. The four legged creature is charging directly at me! I aim down the sights, my eye burns as I force it open and line up the sights."
+
+play sound "gunshot.mp3"
+
+"I pull the trigger, calmly. The creature has an intense gaze in it's faintly glowing eyes. The loud sound cuts through the silence."
+
+"The charge continues. I wait a few moments to line up my shot and fire again."
+
+play sound "gunshot.mp3"
+
+"Another blast lights up the immedate area, but it keeps coming. I aim again... I thought my last shot hit something on it, the creature moved a little, but didn't go down or stop. I aim center mass... though those massive plates on it's body seem strong there."
+
+"I pull the gun up, aiming for it's head and chest; the creature charges straight towards me. I have... four shots left, enough time to fire at this creature one or two more times. I line it up... wait... chest and head... Pull."
+
+nvl clear
+
+play sound "gunshot.mp3"
+
+"The light flashes with the revolver piercing the silence and darkness. The creature seems to hit the floor. I've heard stories of larger game surviving direct gunshots, I've no doubt creatures in this era can survive the bullets as well."
+
+"I think of that creature's blood... Of it's meat. I wonder if it's safe? It seems to be an alien, but it is on earth... I can boil the disease out of it's blood, I'm thirsty enough to want to try. I worry I'll die; my sides hurt so bad, my eyes burn keeping them open for too long or too wide."
+
+"I step towards the creature, apathetic to it's death. I have three shots remaining, no extra bullets on me."
+
+play sound "stomp.mp3"
+
+"Yet as I get closer I hear more charging; it's off in the distance, but some of the charging comes towards me? It grows louder..."
+
+"I make the light and guide it to the location, with one eye open I see the light shining in the blades. I move the light to a second four legger, then a third, a fourth... I stop counting and start running after the fourth. I turn away, I move my feet as quick as I can."
+
+nvl clear
+
+"The charges gain on me, from the darkness the seemingly peaceful creatures just charge at me; why? Did I enter their territory? They seemed so scerene before... Regardless, multiple are charging at me; I throw out as many lights as I can to see the area, maybe they'll even get distracted by them. I want to see if there's a tree, if there's something I can use to keep myself safe and survive but it's too hard to make anything out."
+
+"I just run west, most of the creatures seem to be coming from all other directions except west... My feet seem to have a hard time keeping me moving quickly, I can barely think of moving, I can barely function, the pain in my sides grows and my legs are tired, I feel dead and empty... I want to give in and just turn around to shoot them, maybe scare them away... If the loud shots and dead friend didn't scare them, I wonder if that would work."
+
+"I focus on floating off the ground. In hindsight, I should have tried this before but I don't think my legs can work much longer; too many things don't work with this magical gift, but I try to do this one."
+
+nvl clear
+
+"It's hard to imagine flight, but I do what I can; in the final few moments as these creatures gain on me, I  manage to stay barely ahead of them. I'm not sure how or why, there is some magic in my feet or legs; I'm certainly not flying or in the sky at all, but I am going across the ground faster then I should be. It's enough to keep me ahead of these creatures, I find myself soaring unusually fast and trying not to run into any objects, I grow my light larger and larger."
+
+"Despite the ease on my feet and body I feel a strain on my head, not the same as before with a knife through my eyes, but this time with a knife through my... concious? My thoughts? My brain? I imagine a cut in my thinking, something interupting my focus, a loud sound when trying to think of something important, the inability to remember something you are searching for in your thoughts... This same feeling threatens to stop my mind from focusing on soaring."
+
+nvl clear
+
+"I keep up this pace for as long as I can, a few minutes turns 5 or 10 minutes... I want to keep going, but these tireless creatures seem to follow me and follow me. A crowd of them grows... There is the sound of running water nearby, but I can't seem to find it. As I look ahead, I see a field of crops. A house too, modest; I barely notice a fence in front of me. I “jump” or “elevate” myself over it at the last moment, I fall into the field and start rolling on top of some type of tall crop, corn or wheat, I do not know."
+
+"Hitting the ground and rolling hurts, I try to stand up. I hear those creatures charging at me and I turn around, with my last three shots I try to aim at the chests and heads, I fire the three shots in rapid succession. I see one fall down and not get up, a second one falls but  slowly stands and continues it's charge. Countless more run at me. I scurry into the field; as I turn around I notice a strange flash and streak of light."
+
+"I follow this beam of light past me and into the four legger, it puts up it's claw despite the unrealistic speed of the beam; even so, the four legger simply explodes."
+
+
